@@ -132,8 +132,7 @@
   </header>
 
   <main class="px-3">
-    <h1>Здесь могла быть ваша реклама</h1>
-    <p class="lead">Но пока тут будет только задание: Флягин Евгений Константинович, Московский Политех, гр. 211-352</p>
+    <p class="lead">Платов Иван Витальевич, Московский Политех, гр. 211-352</p>
     <p class="lead">
       {% if user %}
       Тебя зовут {{user[0]}}, твоя почта - {{user[1]}}, твои права - {{rights[user[3]]}}
@@ -141,12 +140,7 @@
       <a class="btn btn-lg btn-light fw-bold border-white bg-white" href="{{url_for('sign_in')}}">Войти</a>
       {% endif %}
     </p>
-    <img src="static/img/VhwEaJecgNs.jpg" class="img-fluid" alt="Responsive image">
   </main>
-
-  <footer class="mt-auto text-white-50">
-    <p>А вот тут футер будет</p>
-  </footer>
 </div>
 <script src="static/js/bootstrap.bundle.min.js"></script>
 
